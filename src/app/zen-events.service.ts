@@ -11,7 +11,9 @@ import 'rxjs/add/operator/map';
 @Injectable()
 export class ZenEventsService {
 
-  private BASE_URL = "http://localhost:5000/api/EventsApi";
+  //private BASE_URL = "http://localhost:5000/api/EventsApi";
+  private BASE_URL = "http://zenithwebsite20170329023214.azurewebsites.net/api/EventsApi";
+  
 
   //constructor() { }
   constructor(private http: Http) { }
